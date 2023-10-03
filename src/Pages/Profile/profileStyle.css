@@ -1,0 +1,37 @@
+.bg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+.profile-container {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 400px;
+    padding: 20px;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background:linear-gradient(#014871, #778580) ;
+  }
+  
+  /* Profile info */
+  .profile-info {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .profile-info p {
+    margin-bottom: 5px;
+  }
+  
+  .profile-info strong {
+    font-weight: bold;
+  }
+  
+  /* User profile heading */
+  h2.user-profile {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }

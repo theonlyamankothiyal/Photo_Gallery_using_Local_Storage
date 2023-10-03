@@ -1,0 +1,63 @@
+/* Default styles */
+.register {
+    width: 400px;
+    height: 420px;
+    background: white;
+    border: 1px solid forestgreen;
+    box-shadow: 0 0 15px 5px rgb(115, 156, 110);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; /* Center the registration box horizontally */
+    margin-top: 95px;
+  }
+  
+  .register > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: black;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 90%;
+    font-size: 1rem;
+  }
+  
+  .register > .button-reg {
+    width: 335px;
+    background: rgb(9, 75, 9);
+    border: 1px solid rgb(9, 75, 9);
+    color: whitesmoke;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+  }
+  .register > .login {
+    width: 335px;
+    background: blue;
+    border: 1px solid blue;
+    color: whitesmoke;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+  }
+  .bg{
+    height: 650px;
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .register {
+      width: 90%; /* Adjust the width for smaller screens */
+    }
+  
+    /* You can further adjust other styles as needed for smaller screens */
+  }
+  
